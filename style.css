@@ -1,0 +1,202 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    border: none;
+}
+
+body {
+    width: 1440px;
+    height: 100%;
+    background-color: hsl(217, 54%, 11%);
+
+}
+
+#box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    height: 600px;
+    width: 350px;
+    transform: translate(-50%, -50%);
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 15px;
+    box-shadow: 0 10px 100px hsl(213, 56%, 6%);
+
+}
+
+.equilibrium {
+    height: 50%;
+    width: 85%;
+    display: block;
+    margin: 20px 20px 20px 25px;
+    border-radius: 15px;
+    opacity: 1;
+    transition: .5s ease;
+
+
+}
+
+.contain {
+    position: relative;
+    width: 100%;
+}
+
+.overlay {
+    height: 100%;
+    width: 85%;
+    display: block;
+
+    border-radius: 15px;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+
+
+
+}
+
+.contain:hover .image {
+
+    opacity: 1;
+}
+
+.contain:hover .overlay {
+    opacity: 0.7;
+    background-color: hsl(178, 100%, 50%);
+}
+
+
+
+.eye {
+
+    position: relative;
+    top: 125px;
+
+
+}
+
+/* <div class="contain">
+            <img src="image-equilibrium.jpg" class="equilibrium" alt="">
+            <div class="overlay">
+                <div class="class">
+                    <svg width="48" height="48" xmlns="http://www.w3.org/2000/svg">
+                        <g fill="none" fill-rule="evenodd">
+                            <path d="M0 0h48v48H0z" />
+                            <path
+                                d="M24 9C14 9 5.46 15.22 2 24c3.46 8.78 12 15 22 15 10.01 0 18.54-6.22 22-15-3.46-8.78-11.99-15-22-15Zm0 25c-5.52 0-10-4.48-10-10s4.48-10 10-10 10 4.48 10 10-4.48 10-10 10Zm0-16c-3.31 0-6 2.69-6 6s2.69 6 6 6 6-2.69 6-6-2.69-6-6-6Z"
+                                fill="#FFF" fill-rule="nonzero" />
+                        </g>
+                    </svg>
+                </div>
+            </div> */
+h2 {
+    color: white;
+    font-family: 'Outfit', sans-serif;
+    margin-left: 25px;
+    font-weight: 600;
+}
+
+h2 a {
+    color: white;
+    transition: color 0.5s;
+}
+
+h2 a:hover {
+    color: hsl(178, 100%, 50%);
+}
+
+.a {
+    margin-left: 25px;
+    color: hsl(215, 51%, 70%);
+    font-family: 'Outfit', sans-serif;
+    font-weight: 300;
+    margin-top: 25px;
+    font-size: 18px;
+}
+
+.sameline {
+    display: inline-flex;
+    justify-content: space-between;
+
+    margin-top: 25px;
+    width: 100%;
+
+}
+
+.left {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    margin-left: 25px;
+    margin-right: 100px;
+}
+
+.right {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    float: right;
+}
+
+.c {
+    color: hsl(215, 51%, 70%);
+    font-family: 'Outfit', sans-serif;
+    margin-left: 10px;
+    font-weight: 300;
+
+
+
+}
+
+.b {
+    color: hsl(178, 100%, 50%);
+    font-family: 'Outfit', sans-serif;
+    margin-left: 10px;
+    font-weight: 600;
+}
+
+hr {
+    border-top: 1px solid hsl(215, 32%, 27%);
+    width: 85%;
+    margin-left: 25px;
+    margin-top: 25px;
+}
+
+
+
+.profile {
+    height: 30px;
+    width: 30px;
+    border: 1px solid white;
+    border-radius: 30px;
+    float: left;
+    margin-left: 25px;
+    margin-top: 20px;
+
+}
+
+.d {
+    color: hsl(215, 51%, 70%);
+    font-family: 'Outfit', sans-serif;
+    margin-left: 70px;
+    font-weight: 300;
+    margin-top: 25px;
+
+
+}
+
+span {
+    color: hsl(0, 0%, 100%);
+    cursor: pointer;
+    transition: 0.5sv g;
+
+}
+
+span:hover {
+    color: hsl(178, 100%, 50%);
+}
